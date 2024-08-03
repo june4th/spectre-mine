@@ -9,8 +9,9 @@ cd ubuntu-in-termux
 chmod +x ubuntu.sh
 ./ubuntu.sh -y
 ./startubuntu.sh
-apt update -y
-apt install git wget build-essential cmake clang libssl-dev libudns-dev libc++-dev lld libsodium-dev
+apt-get update -y
+apt-get upgrade -y
+apt-get install git wget build-essential cmake clang libssl-dev libudns-dev libc++-dev lld libsodium-dev
 git clone https://github.com/Tritonn204/tnn-miner.git
 cd tnn-miner
 mkdir build
