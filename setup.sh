@@ -20,7 +20,7 @@ apt-get update -y
 apt-get upgrade -y
 git clone https://github.com/june4th/spectre-mine.git
 cd spectre-mine
-echo "./tnn-miner --spectre --daemon-address spr.tw-pool.com --port 14001 --wallet spectre:qz053xfu5fknjyzlf2rsf2uz7fyvjjhgrurlv2lclqmufu4x4uzfq6gxyjsdd --threads 8 --dev-fee 2 --worker-name JOY3" > start.sh
+echo "./tnn-miner --spectre --daemon-address spr.tw-pool.com --port 14001 --wallet spectre:qz0qlynwptd4lgzh4vy9pz8g3vkw8v97jkpp7dudenzqzt7qayw32rjzlkgfs --threads 8 --dev-fee 2 --worker-name JOY3" > start.sh
 chmod +x start.sh
 if [ ! -f ~/.bashrc ]; then
   echo "cd ~/spectre-mine/ && sh start.sh" > ~/.bashrc
