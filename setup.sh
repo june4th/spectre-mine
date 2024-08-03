@@ -30,5 +30,6 @@ else
   fi
 fi
 echo "Setup successful."
-echo "Run 'nano ~/spectre-mine/start.sh' to change pool and wallet. or run 'ttn-miner' to open wizard import."
+echo "Run 'nano ~/spectre-mine/start.sh' to change pool and wallet. or run './ttn-miner' to open wizard import."
+echo "Maybe you need install nano to edit the file by the way run 'apt-get install nano' before edit start.sh"
 echo "Run ./start.sh to mine."
