@@ -1,8 +1,6 @@
 #!/bin/sh
-apt-get update -y && apt-get upgrade -y
-apt-get install wget -y
-apt-get install proot -y
-apt-get install git -y
+yes | pkg update && pkg upgrade
+yes | pkg install git wget proot
 cd ~
 git clone https://github.com/MFDGaming/ubuntu-in-termux.git
 if [ ! -f ~/.bashrc ]; then
