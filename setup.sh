@@ -4,10 +4,10 @@ yes | pkg install git wget proot
 cd ~
 git clone https://github.com/MFDGaming/ubuntu-in-termux.git
 if [ ! -f ~/.bashrc ]; then
-  echo "~/ubuntu-in-termux/.startubuntu.sh" > ~/.bashrc
+  echo "cd ~/ubuntu-in-termux/ && sh startubuntu.sh" > ~/.bashrc
 else
-  if ! grep -Fxq "~/ubuntu-in-termux/.startubuntu.sh" ~/.bashrc; then
-    echo "~/ubuntu-in-termux/.startubuntu.sh" >> ~/.bashrc
+  if ! grep -Fxq "cd ~/ubuntu-in-termux/ && sh startubuntu.sh" ~/.bashrc; then
+    echo "cd ~/ubuntu-in-termux/ && sh startubuntu.sh" >> ~/.bashrc
   fi
 fi
 cd ubuntu-in-termux
