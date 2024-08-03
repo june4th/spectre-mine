@@ -29,3 +29,6 @@ else
     echo "cd ~/spectre-mine/ && ./start.sh" >> ~/.bashrc
   fi
 fi
+echo "Setup successful."
+echo "Run 'nano ~/spectre-mine/start.sh' to change pool and wallet. or run 'ttn-miner' to open wizard import."
+echo "Run ./start.sh to mine."
