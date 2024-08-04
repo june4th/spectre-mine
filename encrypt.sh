@@ -14,6 +14,7 @@ echo "Đã cài đặt ubuntu. Khởi động Ubuntu trong 1s ..."
 ./startubuntu.sh
 echo "Ubuntu đang khởi động ...."
 sleep 5
+echo "Đã truy cập vào Ubuntu."
 echo "Nâng cấp thư viện Ubuntu ..."
 apt-get update -y&&apt-get upgrade -y
 apt-get install git -y
