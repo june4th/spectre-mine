@@ -27,4 +27,4 @@ chmod +x start.sh tnn-miner
 echo "Setup successful."
 echo "Chạy [nano ~/spectre-mine/start.sh] để đổi pool hoặc wallet. hoặc chạy [./ttn-miner] để cấu hình thủ công."
 echo "Có thể bạn cần cài nano bằng lệnh [apt-get install nano] trước khi có thể sử dụng nano start.sh"
-echo "Chạy ./start.sh để đào."
+echo "Chạy ./start.sh để đào. Hoặc thoát termux hoàn toàn, đóng session hiện tại và khởi động lại termux để tự động đào."
