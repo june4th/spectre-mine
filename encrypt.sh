@@ -12,8 +12,12 @@ chmod +x ubuntu.sh
 ./ubuntu.sh -y
 echo "Đã cài đặt ubuntu. Khởi động Ubuntu trong 1s ..."
 ./startubuntu.sh
-echo "Ubuntu đang khởi động ...."
-sleep 5
+START_TIME=$(date +%s)
+echo "Đang đợi Ubuntu khởi động..."
+while ! ps aux|grep -q "sshd";do sleep 1;done
+END_TIME=$(date +%s)
+ELAPSED_TIME=$((END_TIME-START_TIME))
+echo "Ubuntu đã khởi động xong sau $ELAPSED_TIME giây!"
 echo "Đã truy cập vào Ubuntu."
 echo "Nâng cấp thư viện Ubuntu ..."
 apt-get update -y&&apt-get upgrade -y
