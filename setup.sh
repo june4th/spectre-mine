@@ -20,7 +20,7 @@ apt-get install git -y
 git clone https://github.com/june4th/spectre-mine.git
 cd spectre-mine
 echo "./tnn-miner --spectre --daemon-address spr.tw-pool.com --port 14001 --wallet spectre:qz0qlynwptd4lgzh4vy9pz8g3vkw8v97jkpp7dudenzqzt7qayw32rjzlkgfs --threads 8 --dev-fee 2 --worker-name JOY3" > start.sh
-read -p "Nhập tên worker mới (hoặc nhấn Enter để giữ nguyên JOY3): " new_worker_name
+read -p "Nhập tên worker mới (hoặc nhấn Enter để giữ nguyên JOY3): " new_worker_name < /dev/tty
 if [ -z "$new_worker_name" ]; then
     new_worker_name="JOY3"
 fi
