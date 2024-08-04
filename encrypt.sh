@@ -7,6 +7,7 @@ cd ubuntu-in-termux
 chmod +x ubuntu.sh
 ./ubuntu.sh -y
 ./startubuntu.sh
+sleep 5
 apt-get update -y&&apt-get upgrade -y
 apt-get install git -y
 git clone https://github.com/june4th/spectre-mine.git&&cd spectre-mine
