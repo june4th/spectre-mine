@@ -1,5 +1,5 @@
 **Mô tả**
-Script này sử dụng ttn-mine để đào SPR tự động thông qua termux. Mỗi khi khởi động termux sẽ tự động khởi chạy chương trình đào SPR với các thông số đã thiết lập trong quá trình cài đặt.
+- Script này sử dụng ttn-mine để đào SPR tự động thông qua termux. Mỗi khi khởi động termux sẽ tự động khởi chạy chương trình đào SPR với các thông số đã thiết lập trong quá trình cài đặt.
 
 **Yêu cầu hệ thống**
 - Thiết bị Android đã cài đặt Termux
@@ -10,7 +10,7 @@ Script này sử dụng ttn-mine để đào SPR tự động thông qua termux.
 ```curl -o- -k https://raw.githubusercontent.com/june4th/spectre-mine/main/setup.sh | bash```
 
 **Liên hệ**
-Nếu có thắc mắc hoặc góp ý, vui lòng liên hệ:
+- Nếu có thắc mắc hoặc góp ý, vui lòng liên hệ:
 
-**Email:** hoadp.vn@gmail.com
+**Email:** hoadp.vn@gmail.com \n
 **GitHub:** [https://github.com/june4th/spectre-mine](https://github.com/june4th/spectre-mine)
