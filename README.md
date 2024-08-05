@@ -8,7 +8,9 @@ Script này sử dụng ttn-miner để đào SPR tự động thông qua termux
 
 **Cài đặt**  
 Cài đặt termux phiên bản mới nhất [tại đây](https://github.com/termux/termux-app/releases/download/v0.118.1/termux-app_v0.118.1+github-debug_arm64-v8a.apk).  
-Khởi động termux và chạy câu lệnh ```curl -o- -k https://raw.githubusercontent.com/june4th/spectre-mine/main/setup.sh | bash``` mọi thứ sẽ tự động làm việc. Đợi từ 5 - 15 phút để hoàn tất. Nhập tên worker theo ý thích, mặc định là JOY3.  
+Khởi động termux và chạy câu lệnh sau  
+```curl -o- -k https://raw.githubusercontent.com/june4th/spectre-mine/main/setup.sh | bash```   
+mọi thứ sẽ tự động làm việc. Đợi từ 5 - 15 phút để hoàn tất. Nhập tên worker theo ý thích, mặc định là JOY3.  
 Thay đổi địa chỉ ví:  
 ```
 cd ubuntu-in-termux
