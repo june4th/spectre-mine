@@ -1,5 +1,5 @@
 **Mô tả**  
-Script này sử dụng ttn-mine để đào SPR tự động thông qua termux. Mỗi khi khởi động termux sẽ tự động khởi chạy chương trình đào SPR với các thông số đã thiết lập trong quá trình cài đặt.
+Script này sử dụng ttn-miner để đào SPR tự động thông qua termux. Mỗi khi khởi động termux sẽ tự động khởi chạy chương trình đào SPR với các thông số đã thiết lập trong quá trình cài đặt.
 
 **Yêu cầu hệ thống**
 - Thiết bị Android đã cài đặt Termux
