@@ -13,7 +13,7 @@ Khởi động termux và chạy câu lệnh sau
 mọi thứ sẽ tự động làm việc. Đợi từ 5 - 15 phút để hoàn tất. Nhập tên worker theo ý thích, mặc định là JOY3.  
 Thay đổi địa chỉ ví:  
 ```
-cd ubuntu-in-termux
+cd ~/ubuntu-in-termux
 ./startubuntu.sh
 cd spectre-mine
 nano start.sh
